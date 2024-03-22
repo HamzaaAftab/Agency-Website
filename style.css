@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav-bar{
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0.5!important;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 14px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.navbar-nav li a:hover{
+    color: rgb(219, 75, 171);
+    transform: translateX(8%);
+    transition: 0.3s ease-in-out;
+}
+.navbar-toggler-icon{
+    background: white;
+    color: chartreuse;
+}
+
+/* ----------------Banner Section---------------- */
+
+.banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: white;
+    padding-top: 5%;
+}
+.heading{
+    font-size: 2.5rem;
+    margin-top: 4rem;
+}
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+.banner a{
+    color: rgb(233, 224, 224);
+    text-decoration: none;
+    font-weight: bold;
+}
+.banner a:hover{
+    cursor: pointer;
+    color: burlywood;
+    transform: translateX(-14%);
+    transition: 0.3s ease-in-out;
+}
+.bottom-img{
+    width: 100%;
+    height: 10%;
+}
+
+/* ---------SCROLLBAR--------- */
+::-webkit-scrollbar{
+    background-color: #5f1782;
+    width: 1rem;
+    scroll-behavior: smooth;
+}
+
+/* ----------Services Section------- */
+
+.service-img{
+    width: 120px;
+    margin-top: 05px;
+}
+.services{
+    padding: 20px;
+}
+.services h4{
+    margin-top: 20px;
+    text-decoration: underline;
+    color: #a517ba;
+    text-transform: uppercase;
+}
+.services p{
+    color: rgba(0, 0, 0, 0.644);
+
+    text-align: center;
+}
+
+.title::before{
+    content: "";
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content: "";
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+.services .btn{
+    box-shadow: 2px 3px 3px #a517ba;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    font-size: 1.2rem;
+}
+
+/* About US Section */
+.about-us{
+    background-color: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 35px;
+    margin-top: 30px;
+}
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: -6px;
+}
+
+.about-us ul li{
+    margin: 10px 0;
+    font-size: 22px;
+}
+.about-us ul{
+    margin-left: 23px;
+}
+
+/* 
+Testimonials section */
+#testimonials{
+    background-color: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 35px;
+    margin-top: 30px;
+}
+.testimonials{
+    border-left: 4px solid rgb(212, 0, 255);
+    margin-top: 50px;
+}
+.testimonials img{
+    height: 70px;
+    width: 75px;
+    border-radius: 40%;
+    margin: 0 10px;
+    margin-top: -28px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 19px;
+}
+
+#social-media{
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s ease-in-out;
+}
+.social-icons a:hover img{
+    transform: translateY(20%);
+}
